@@ -1,0 +1,131 @@
+@charset "utf-8";
+body 
+{	
+	background: #141414;
+	color: #999;
+	font: 100%/1.5em sans-serif;
+	margin: 0;
+}
+
+h1 
+{ 
+	margin: 0;
+	font-size: 40px;
+}
+
+
+
+fieldset 
+{
+	border: none;
+	margin: 0;
+}
+
+input 
+{
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	margin:0;
+	outline: none;
+	-webkit-appearance: none;
+}
+
+
+.clearfix:after { clear: both; }
+
+/* ---------- LOGIN-FORM ---------- */
+
+#login-form 
+{
+	margin: 150px auto;
+	width: 20em;
+	margin-top: 4.3em; 
+}
+
+#login-form h1 {
+	background-color: #777;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	font-size: 18px;
+	padding: 20px;
+	text-align: left;
+
+}
+
+#login-form fieldset {
+	background: #fff;
+	border-radius: 0 0 5px 5px;
+	padding: 20px;
+	position: relative;
+	height: 20em; 
+}
+#login-form input {
+	font-size: 14px;
+}
+
+#login-form input[type="email"],
+#login-form input[type="password"] {
+	border: 1px solid #dcdcdc;
+	padding: 12px 10px;
+	width: 238px;
+}
+
+#login-form input[type="email"] {
+	border-radius: 3px 3px 0 0;
+	margin:5px;
+	border: 1px solid #000000;
+}
+
+#login-form input[type="password"] {
+	border-top: none;
+	border-radius: 0px 0px 3px 3px;
+	margin:5px;
+	border: 1px solid #000000;
+}
+#login-form footer {
+	font-size: 16px;
+	margin-top: 16px;
+	position: absolute;
+	top: -1em;
+	right: 5.8em;
+}
+#login-form footers {
+	font-size: 16px;
+	margin-top: 16px;
+	position: absolute;
+	top: 0em;
+	right: 2.8em;
+}
+
+
+button
+{
+	position: absolute;
+	top: 19em;
+	left: 8em;
+	color: #000000;
+	background: #E0B51E;
+	border: 1px solid ;
+        border-radius: 5px;
+	width: 9em;
+	height: 3em;			
+}
+a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+@media screen and (max-width: 320px) 
+{
+	fieldset
+	{
+		position: absolute;
+		top: 12em; 
+	}
+}
+
+
+
+

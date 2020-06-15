@@ -1,0 +1,26 @@
+.main
+{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.nav img
+{
+    width: 5%;
+    margin: 0.5% 0% 0.5% 5%;
+}
+.box
+{
+    margin: 0% 3% 5% 3%;
+}
+a
+{
+    color: black;
+}
+a img
+{
+    margin-bottom: 10%;
+}

@@ -1,0 +1,157 @@
+.nav
+{
+    width: 100%;
+    background: #000000;
+    float: left;
+    margin-bottom: 2%;
+}
+.nav img
+{
+    width: 5%;
+    margin: 0.5% 0% 0.5% 5%;
+}
+.nav menu
+{
+    float: right;
+    margin-right: 5%;
+}
+.nav menu ul li
+{
+    display: block;
+    float: left;
+    color: white;
+    list-style-type: none;
+    margin:1.2em;
+    padding: 0.5em 1em;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    letter-spacing: 1px
+}
+.nav menu ul li:hover
+{
+    background: #E0B51E;
+    transition: 0.2s;
+}
+.nav .active
+{
+    border: 1px solid #E0B51E;
+    color: #E0B51E;
+    transition: 0.2s;
+}
+.nav .active:hover
+{
+    color: white;
+    transition: 0.2s;
+}
+.news1
+{
+    width: 100%;
+    padding-bottom: 60px;
+    float: left;
+    text-align: center;
+}
+.news1_mine
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+}
+.news1 .left
+{
+    width: 45%;
+}
+.news1 .left img
+{
+    width: 80%;
+    margin: 8% 0% 0% 4%;
+}
+.news1 .right
+{
+    width: 43%;
+    margin: 2% 10% 0% 0%;
+}
+.news1 .right h3
+{
+    font-size: 190%;
+    color: black;
+}
+.news1 .right p:nth-child(1)
+{
+    font-size: 120%;
+    margin-top: 10%;
+    text-align: left;
+}
+.news1 .right p:nth-child(2)
+{
+    font-size: 180%;
+    margin-top: 3%;
+    text-align: left;
+}
+.news1 .right p:nth-child(3)
+{
+    font-size: 100%;
+    margin-top: 3%;
+    text-align: left;
+}
+.footer
+{
+    width: 100%;
+    background: #1b1c1d;
+    display: flex;
+}
+.address
+{
+    margin: 0.8% 5% 0 10%;
+    width: 12%;
+}
+.address span
+{
+    color: white;
+    font-size: 150%;
+    margin-left: 15%; 
+}
+.address p
+{
+    color: #a7a7a7;
+    font-size: 120%;
+    margin-left: 15%; 
+}
+.phone
+{
+    margin: 0 5% 0 5%;
+    width: 15%;
+}
+.phone span
+{
+    color: white;
+    font-size: 150%;
+    margin-left: 15%;
+}
+.phone p
+{
+    color: #a7a7a7;
+    font-size: 120%;
+    margin-left: 15%;
+}
+.map
+{
+    height: 50%;
+    margin: 2% 0 2% 0;
+}
+.messenger 
+{
+    margin: 0% 5% 0% 5%;
+    width: 13%;
+}
+.messenger span
+{
+    color: white;
+    font-size: 150%;
+}
+.messenger div
+{
+    float: right;
+    margin: 20% 3% 0% 3%;
+}

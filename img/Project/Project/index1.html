@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function f(){
+    if(document.getElementById("box").style.display=="none")
+    {
+      document.getElementById("box").style.display="block";
+    }
+    else
+    {
+      document.getElementById("box").style.display="none";
+    }}
+
+
+    function p1(){
+    if(document.getElementById("box2").style.display=="none")
+    {
+      document.getElementById("box2").style.display="block";
+    }
+    else
+    {
+      document.getElementById("box2").style.display="none";
+    }}
+  </script>
+</head>
+<body>
+  <button onclick="f()">Sign in</button>
+  <div id="box">
+    <input type="text" placeholder="login">
+    <input type="password" placeholder="password">
+    <input type="button" placeholder="sign in">
+    <p onclick="p1()" ><u>Log in</u></p>
+
+  <div id="box2">
+    <input type="text" placeholder="login">
+    <input type="password" placeholder="password">
+    <input type="password" placeholder="confirm your password">
+    <input type="button" value="sign in" placeholder="sign in"> 
+  </div>
+</body>
+</html>
