@@ -290,7 +290,7 @@ h4
 #menu_m
 {
     position: absolute;
-    top: 23%;
+    top: 20%;
     left: 60%;
     background: black;
     opacity: 0.5;
@@ -360,7 +360,7 @@ a
     {
         width: 80%;
         margin-left: 10%;
-        font-size: 100%;
+        font-size: 150%;
     }
     .right a
     {
