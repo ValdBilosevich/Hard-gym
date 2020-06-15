@@ -24,7 +24,7 @@ body
 }
 .nav img
 {
-    width: 15%;
+    width: 5%;
     margin: 0.5% 0% 0.4% 0%;
 }
 .nav menu
@@ -287,10 +287,14 @@ h4
 {
     position: absolute;
     margin: 0% 5% 0% 0%;
-    top: 7%;
+    top: 17%;
     left: 77.7%;
     background: black;
     opacity: 0.5;
+}
+.nav p
+{
+    font-size: 500%;
 }
 #menu_m ul li
 {
@@ -353,6 +357,7 @@ a
     {
         width: 80%;
         margin-left: 10%;
+        font-size: 100%;
     }
     .right a
     {
@@ -369,12 +374,13 @@ a
     }
     .address
     {
-        margin: 0.8% 5% 0 10%;
+        margin: 0.8% 5% 0 15%;
         width: 30%;
     }
     .phone
     {
         width: 30%;
+        margin: 0.8% 0% 0 10%;
     }
     .footer
     {

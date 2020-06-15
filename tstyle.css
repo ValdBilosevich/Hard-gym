@@ -63,3 +63,34 @@ a
     border: 1px solid #E0B51E;
     letter-spacing: 1px;
 }
+@media screen and (max-width: 1080px)
+{
+    .subject_mine
+    {
+        display: block;
+        margin-left: 20%;
+        border: none;
+    }
+    .subject .left img
+    {
+        margin-left: 15%;
+    }
+    .subject .left ,.subject .right
+    {
+        width: 70%;
+    }
+    .subject .right
+    {
+        margin-left: 10%;
+        font-size: 180%;
+    }
+    .subject .left img
+    {
+        width: 70%;
+    }
+    .buy
+    {
+        font-size: 170%;
+        margin-right: 10%;
+    }
+}
