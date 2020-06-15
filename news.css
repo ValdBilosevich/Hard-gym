@@ -155,3 +155,24 @@
     float: right;
     margin: 20% 3% 0% 3%;
 }
+@media screen and (max-width: 1080px)
+{
+    .news1_mine
+    {
+        display: block;
+        margin-left: 20%;
+        border: none;
+    }
+    .news1 .left ,.news1 .right
+    {
+        width: 70%;
+    }
+    .news1 .right
+    {
+        margin-left: 2%;
+    }
+    .news1 .left img
+    {
+        width: 100%;
+    }
+}

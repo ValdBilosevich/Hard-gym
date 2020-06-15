@@ -24,7 +24,7 @@ body
 }
 .nav img
 {
-    width: 5%;
+    width: 15%;
     margin: 0.5% 0% 0.4% 0%;
 }
 .nav menu
@@ -127,20 +127,16 @@ h4
 .shop
 {
     width: 100%;
-    height: 81%;
+    /*height: 81%;*/
     background: black;
     display: flex;
     margin-bottom: 3%;
 }
 .shop_mine
 {
-    float: bottom;
+    /*float: bottom;*/
     justify-content: space-between;
     display: flex;
-}
-.shop .left
-{
-    
 }
 .shop .left img
 {
@@ -173,7 +169,6 @@ h4
     align-content: space-between;
     flex-wrap: wrap;
     text-align: center;
-    width: 100%;
     margin-left: 5%;
 }
 .box_p
@@ -372,8 +367,6 @@ a
     {
         margin-right: 15%;
     }
-    
-    
     .address
     {
         margin: 0.8% 5% 0 10%;
@@ -382,5 +375,17 @@ a
     .phone
     {
         width: 30%;
+    }
+    .footer
+    {
+        padding-bottom: 5%;
+    }
+    .box_p
+    {
+        margin-right: 5%;
+    }
+    .nav a img
+    {
+        width: 10%;
     }
 }
