@@ -397,4 +397,8 @@ a
     {
         width: 10%;
     }
+    .section .box p ,.section .box p a
+    {
+        font-size: 180%;
+    }
 }
