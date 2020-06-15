@@ -328,14 +328,14 @@ a
     color: white;
     transition: 0.2s;
 }
-@media screen and (min-width: 1000px)
+@media screen and (min-width: 1080px)
 {
     .nav p ,#menu_m
     {
         display: none;
     }
 }
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 1080px)
 {
     menu
     {
