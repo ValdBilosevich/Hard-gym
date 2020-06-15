@@ -170,13 +170,16 @@ h4
 .program
 {
     display: flex;
-    align-content: space-around;
+    align-content: space-between;
     flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    margin-left: 5%;
 }
 .box_p
 {
     width: 30%;
-    margin: 2% 8% 3% 11%;
+    margin: 6% 7% 3% 7%;
 }
 .box_p:hover
 {
@@ -325,14 +328,14 @@ a
     color: white;
     transition: 0.2s;
 }
-@media screen and (min-width: 800px)
+@media screen and (min-width: 1000px)
 {
     .nav p ,#menu_m
     {
         display: none;
     }
 }
-@media screen and (max-width: 800px)
+@media screen and (max-width: 1000px)
 {
     menu
     {
